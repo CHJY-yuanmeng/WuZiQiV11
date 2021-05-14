@@ -1,0 +1,1018 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "panel1MallMain"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panelMall"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1shang"
+						"text": "商城"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 20, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 265
+						"y": 25
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonSBackHome"
+						"text": "返回"
+						"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonBackMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 580
+						"y": 10
+						"width": 114
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonPayPoint"
+						"text": "积分充值"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonPayPointMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 580
+						"y": 55
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "pic1"
+						"icon": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 20
+						"y": 70
+						"width": 169
+						"height": 159
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "pic2"
+						"icon": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 205
+						"y": 100
+						"width": 212
+						"height": 97
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "pic3"
+						"icon": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 430
+						"y": 85
+						"width": 134
+						"height": 137
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2sha"
+						"text": "杀棋"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+						"horizontalTextPosition": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 85
+						"y": 235
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6bian"
+						"text": "变色棋"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 280
+						"y": 235
+						"width": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label12zha"
+						"text": "炸棋"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 475
+						"y": 235
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3qu"
+						"text": "从棋盘上去掉"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 60
+						"y": 285
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5gai"
+						"text": "改变棋盘上任意"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 240
+						"y": 280
+						"width": 127
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8xuan"
+						"text": " 选择一个自己的棋子"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 415
+						"y": 275
+						"width": 146
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4zha2"
+						"text": "任意一个棋子"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 60
+						"y": 325
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7bian2"
+						"text": "一个棋子的颜色"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 240
+						"y": 320
+						"width": 127
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9zha2"
+						"text": "让棋子周围3x3的棋子"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 415
+						"y": 295
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10zha3"
+						"text": "从棋盘上去掉"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 440
+						"y": 315
+						"width": 110
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label11zha4"
+						"text": "包括自己的棋子"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 435
+						"y": 340
+						"width": 120
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonPayItem1"
+						"text": "购买"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonPayItem1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 70
+						"y": 365
+						"width": 80
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button4buybian"
+						"text": "购买"
+						"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 265
+						"y": 365
+						"width": 80
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button5buyzha"
+						"text": "购买"
+						"font": #SwingDerivedFont1
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button5MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 445
+						"y": 365
+						"width": 80
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label34sess"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						"text": "积分充值成功!"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 260
+						"y": 400
+						"width": 300
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 730
+					"height": 465
+					"x": 80
+					"y": 0
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panelPayItem1"
+					"visible": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "payPic1"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 165
+						"y": 15
+						"width": 169
+						"height": 159
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13quqi"
+						"text": "从棋盘上去掉"
+						"font": &SwingDerivedFont2 new com.jformdesigner.model.SwingDerivedFont( null, 0, 7, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 200
+						"y": 220
+						"height": -2
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14renyi"
+						"text": "任意一个棋子"
+						"font": &SwingDerivedFont3 new com.jformdesigner.model.SwingDerivedFont( null, 0, 7, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 200
+						"y": 250
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15num"
+						"text": "数量:"
+						"font": &SwingDerivedFont4 new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 195
+						"y": 300
+						"width": 55
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1bian"
+						"text": "1"
+						"font": &SwingDerivedFont5 new com.jformdesigner.model.SwingDerivedFont( null, 0, 12, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 255
+						"y": 290
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonSub1"
+						"text": "<"
+						"font": &SwingDerivedFont6 new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonSub1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 305
+						"y": 285
+						"height": 50
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonAdd1"
+						"text": ">"
+						"font": &SwingDerivedFont7 new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonAdd1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 355
+						"y": 285
+						"width": 50
+						"height": 50
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label16zon60"
+						"text": "总额:60积分"
+						"font": &SwingDerivedFont8 new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 205
+						"y": 345
+						"width": 200
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "pay1"
+						"text": "支付"
+						"font": &SwingDerivedFont9 new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "pay1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 220
+						"y": 380
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label31txt"
+						"text": "text"
+						"font": &SwingDerivedFont10 new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						"visible": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 310
+						"y": 380
+						"width": 100
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17sha"
+						"text": "杀棋"
+						"font": &SwingDerivedFont11 new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 230
+						"y": 185
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonCancel1"
+						"text": "取消"
+						"font": &SwingDerivedFont12 new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonCancel1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 220
+						"y": 420
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 565
+					"height": 480
+					"x": 80
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panelPayItem3"
+					"visible": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "payPic3"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 195
+						"y": 15
+						"width": 134
+						"height": 137
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label23xuan"
+						"text": "选择一个自己的棋子"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 200
+						"y": 195
+						"height": -2
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label24xuan"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+						"text": "让棋子周围3x3的棋子"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 195
+						"y": 215
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label25num"
+						"text": "数量:"
+						"font": #SwingDerivedFont4
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 170
+						"y": 290
+						"width": 55
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField3zha"
+						"text": "1"
+						"font": #SwingDerivedFont5
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 235
+						"y": 290
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonSub3zha"
+						"text": "<"
+						"font": #SwingDerivedFont6
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonSub3MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 290
+						"y": 285
+						"height": 50
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonAdd3zha"
+						"text": ">"
+						"font": #SwingDerivedFont7
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonAdd3MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 340
+						"y": 285
+						"width": 50
+						"height": 50
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label26zon"
+						"text": "总额:360积分"
+						"font": #SwingDerivedFont8
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 205
+						"y": 345
+						"width": 200
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "pay3zha"
+						"text": "支付"
+						"font": #SwingDerivedFont9
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "pay3MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 220
+						"y": 380
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label27zha"
+						"text": "炸棋"
+						"font": #SwingDerivedFont11
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 245
+						"y": 165
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonCancel3zha"
+						"text": "取消"
+						"font": #SwingDerivedFont12
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonCancel1MouseClicked", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonCancel2MouseClicked", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonCancel3MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 220
+						"y": 420
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label28zha"
+						"text": "从棋盘上去掉"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 220
+						"y": 240
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label29zha"
+						"text": "包括自己的棋子"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 215
+						"y": 265
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label33zha"
+						"text": "text"
+						"font": #SwingDerivedFont10
+						"visible": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 100
+						"height": 27
+						"x": 310
+						"y": 380
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 565
+					"height": 489
+					"x": 80
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panelPayItem2"
+					"visible": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "payPic2"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 165
+						"y": 15
+						"width": 212
+						"height": 97
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label18gaib"
+						"text": "改变棋盘上任意"
+						"font": #SwingDerivedFont2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 205
+						"y": 165
+						"height": -2
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label19yans"
+						"text": "一个棋子的颜色"
+						"font": #SwingDerivedFont3
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 205
+						"y": 200
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label20num"
+						"text": "数量:"
+						"font": #SwingDerivedFont4
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 180
+						"y": 245
+						"width": 55
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2num"
+						"text": "1"
+						"font": #SwingDerivedFont5
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 245
+						"y": 240
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonSub2gai"
+						"text": "<"
+						"font": #SwingDerivedFont6
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonSub2MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 295
+						"y": 235
+						"height": 50
+						"width": 50
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonAdd2gai"
+						"text": ">"
+						"font": #SwingDerivedFont7
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonAdd2MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 345
+						"y": 235
+						"width": 50
+						"height": 50
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label21sum"
+						"text": "总额:120积分"
+						"font": #SwingDerivedFont8
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 210
+						"y": 295
+						"width": 200
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "pay2bian"
+						"text": "支付"
+						"font": #SwingDerivedFont9
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "pay2MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 230
+						"y": 330
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label22bian"
+						"text": "变色棋"
+						"font": #SwingDerivedFont11
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 240
+						"y": 135
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonCancel2bian"
+						"text": "取消"
+						"font": #SwingDerivedFont12
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonCancel1MouseClicked", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonCancel2MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 230
+						"y": 370
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label32txt"
+						"text": "text"
+						"font": #SwingDerivedFont10
+						"visible": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 100
+						"height": 27
+						"y": 330
+						"x": 310
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 565
+					"height": 430
+					"x": 80
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panelQRCode"
+					"visible": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "picQRCode"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 50
+						"y": 55
+						"height": 300
+						"width": 300
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "取消"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 160
+						"y": 360
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 400
+					"height": 400
+					"x": 150
+					"y": 80
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panelScore"
+					"visible": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label30zhu"
+						"text": "积分助力包"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 30, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 160
+						"y": 30
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "pointPic1zhu"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 15
+						"y": 105
+						"width": 158
+						"height": 137
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "pointPic3zhu"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 360
+						"y": 105
+						"width": 154
+						"height": 133
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "pointPic2zhu"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 155
+						"height": 133
+						"x": 190
+						"y": 105
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonPayPoint1zhu"
+						"text": "购买"
+						"font": &SwingDerivedFont13 new com.jformdesigner.model.SwingDerivedFont( null, 0, 8, false )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonPayPoint1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 50
+						"y": 260
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonPayPoint2zhu"
+						"text": "购买"
+						"font": #SwingDerivedFont13
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonPayPoint2MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 78
+						"height": 33
+						"x": 230
+						"y": 260
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonPayPoint3zhu"
+						"text": "购买"
+						"font": #SwingDerivedFont13
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonPayPoint3MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 78
+						"height": 33
+						"x": 400
+						"y": 260
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonBack1zhu"
+						"text": "返回"
+						"font": #SwingDerivedFont0
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonBack1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 114
+						"height": 33
+						"x": 400
+						"y": 20
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 535
+					"height": 320
+					"x": 45
+					"y": 15
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 845
+				"height": 470
+				"x": 5
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "panel1ScoreBoard"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1Rop"
+					"text": "积 分 排 行 榜"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 20, false )
+					"foreground": new java.awt.Color( 204, 51, 0, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 215
+					"height": 45
+					"x": 235
+					"y": 0
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1Recharge"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1Recharge"
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 300
+					"height": 315
+					"x": 0
+					"y": 90
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane2Win"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table2Win"
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 300
+					"height": 315
+					"x": 380
+					"y": 90
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2Reop"
+					"text": "充值排行"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 8, false )
+					"foreground": new java.awt.Color( 0, 0, 255, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 80
+					"height": 27
+					"x": 110
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3Winop"
+					"text": "赢取排行"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 8, false )
+					"foreground": new java.awt.Color( 51, 0, 255, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 80
+					"height": 27
+					"x": 490
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1RLtoHome"
+					"text": "返回主页"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 84
+					"height": 25
+					"x": 685
+					"y": 5
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2RLre"
+					"text": "刷新一下"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 125
+					"height": 25
+					"x": 280
+					"y": 420
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"width": 845
+				"height": 470
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "panelMain"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1paihang"
+					"text": "积分排行"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 15
+					"y": 350
+					"height": 50
+					"width": 95
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2Pack"
+					"text": "背包"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 730
+					"y": 355
+					"width": 85
+					"height": 50
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3Shop"
+					"text": "商城"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 750
+					"y": 15
+					"height": 50
+					"width": 80
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4Start"
+					"text": "开始游戏"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 355
+					"y": 260
+					"width": 110
+					"height": 60
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button5Login"
+					"text": "登录"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 735
+					"y": 285
+					"width": 70
+					"height": 35
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 0
+				"width": 845
+				"height": 470
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "panel1Login"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "昵称"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 45
+					"height": 17
+					"x": 65
+					"y": 70
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1UserId"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 145
+					"height": 20
+					"x": 115
+					"y": 70
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "密码"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 45
+					"height": 17
+					"x": 65
+					"y": 120
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1LoginAck"
+					"text": "登录"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 60
+					"height": 25
+					"x": 200
+					"y": 205
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2Register"
+					"text": "注册"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 60
+					"height": 25
+					"x": 100
+					"y": 205
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1LoginCancel"
+					"text": "取消"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 285
+					"y": 260
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField1UserPwd"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 115
+					"y": 125
+					"width": 145
+					"height": 20
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 50
+				"width": 370
+				"height": 300
+				"x": 140
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "panel1Register"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2RegisterCancel"
+					"text": "取消"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 60
+					"height": 25
+					"x": 90
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "QQ"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 20
+					"x": 45
+					"y": 55
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1QQ"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 195
+					"height": 25
+					"x": 90
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField2UserName"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 195
+					"height": 25
+					"x": 90
+					"y": 90
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "昵称"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 55
+					"height": 17
+					"x": 35
+					"y": 95
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "密码"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 40
+					"height": 17
+					"x": 45
+					"y": 130
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "确认密码"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 65
+					"height": 17
+					"x": 25
+					"y": 165
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1RegisterAck"
+					"text": "确认"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 60
+					"height": 25
+					"x": 215
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField1pwd1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 90
+					"y": 125
+					"width": 195
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField2pwd2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 195
+					"height": 25
+					"x": 90
+					"y": 160
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 50
+				"width": 370
+				"height": 300
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 865, 510 )
+		} )
+	}
+}

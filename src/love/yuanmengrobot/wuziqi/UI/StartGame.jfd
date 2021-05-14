@@ -1,0 +1,135 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1View"
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1Room"
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 85
+					"y": 10
+					"width": 300
+					"height": 250
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1Re"
+					"text": "刷新"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 100
+					"y": 280
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2Insert"
+					"text": "加入房间"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 205
+					"y": 280
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3Create"
+					"text": "创建房间"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 325
+					"y": 280
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1BackToHome"
+					"text": "返回首页"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 395
+					"y": 15
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 10
+				"width": 485
+				"height": 315
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel2Room"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1CancelCreate"
+					"text": "取消"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 145
+					"y": 215
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1RoomName"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 170
+					"y": 140
+					"width": 115
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "房间名字"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 195
+					"y": 110
+					"width": 70
+					"height": 20
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1SenRoomMeg"
+					"text": "创建"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 245
+					"y": 215
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"width": 485
+				"height": 315
+				"y": 10
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "panel3RoomView"
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane2"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1RoomView"
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 45
+					"y": 15
+					"height": 230
+					"width": 400
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1Ready"
+					"text": "准备"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 305
+					"y": 260
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2Leave"
+					"text": "离开房间"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 90
+					"y": 260
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 10
+				"width": 485
+				"height": 315
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 510, 370 )
+		} )
+	}
+}
